@@ -1,0 +1,83 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 40vw;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  margin-right: 1rem;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+thead th {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+thead th:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+tbody td {
+  border: 1px solid #dee2e6;
+  padding: 0.5rem;
+}
+
+tbody td:last-child {
+  text-align: center;
+}
+
+tbody td button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+tbody td button:last-child {
+  background-color: #28a745;
+}
+
+tbody td button:last-child:hover {
+  background-color: #218838;
+}
+
+tbody td button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
