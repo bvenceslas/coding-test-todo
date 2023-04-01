@@ -143,6 +143,7 @@ const App = () => {
             }}
           >
             <input
+              className="text-field"
               type="text"
               value={newTodoTitle}
               onChange={handleNewTodoTitleChange}
