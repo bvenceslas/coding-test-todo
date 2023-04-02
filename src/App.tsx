@@ -78,6 +78,7 @@ const App = () => {
       setTodos(updatedTodos);
     }
     setNewTodoTitle("");
+    toggleSortDirection("id");
   };
 
   const toggleSortDirection = (field: "id" | "title" | "completed") => {
@@ -145,10 +146,11 @@ const App = () => {
             <input
               className="text-field"
               type="text"
+              placeholder="Enter a task..."
               value={newTodoTitle}
               onChange={handleNewTodoTitleChange}
             />
-            <button type="submit">Add</button>
+            <button type="submit">Add Todo</button>
           </form>
         </div>
         {isLoading ? (

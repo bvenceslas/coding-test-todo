@@ -63,7 +63,7 @@ tbody td:last-child {
 }
 
 tbody td button {
-  background-color: #dc3545;
+  background-color: #28a745;
   color: #fff;
   border: none;
   padding: 0.25rem 0.5rem;
@@ -73,11 +73,11 @@ tbody td button {
 }
 
 tbody td button:last-child {
-  background-color: #28a745;
+  background-color: #dc3545 ;
 }
 
 tbody td button:last-child:hover {
-  background-color: #218838;
+  background-color: #37070b;
 }
 
 tbody td button:disabled {
